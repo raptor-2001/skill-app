@@ -95,7 +95,7 @@ function SignIn() {
 
       </main>
 
-      <Banner />
+      
 
     </div>
   );
