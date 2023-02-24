@@ -2,6 +2,7 @@ import React from 'react';
 import HeroHome from '../partials/HeroHome';
 import Footer from '../partials/Footer';
 import Navbar from '../partials/Navbar';
+import Login from '../partials/Login';
 // import Banner from '../partials/Banner';
 
 function Home() {
@@ -10,9 +11,8 @@ function Home() {
 
       {/* Navbar */}
       <Navbar/>
-
-      {/*  Site header */}
-      {/* <Header /> */}
+      {/* Login */}
+      <Login/>
 
       {/*  Page content */}
       <main className="flex-grow">
@@ -22,8 +22,7 @@ function Home() {
      
       </main>
 
-      {/* <Banner /> */}
-
+      
       {/*  Site footer */}
       <Footer />
 

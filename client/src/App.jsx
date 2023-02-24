@@ -43,7 +43,7 @@ function App() {
     <>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/jobs" element={<Job/>}/>
+          <Route path="/jobs" element={<Job/>}/>
           <Route path="/scholarship" element={<Scholarship/>}/>
           <Route path="/courses" element={<Courses/>}/>
           <Route path="/online-tution" element={<OnlineTution/>}/>

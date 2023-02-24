@@ -31,7 +31,6 @@ const Navbar = () => {
                       <NavLink
                         className="text-gray-500 transition hover:text-gray-500/75"
                         activeClassName="text-teal-600"
-                        exact
                         to="/jobs">
                         Jobs
                       </NavLink>
@@ -40,7 +39,6 @@ const Navbar = () => {
                       <NavLink
                         className="text-gray-500 transition hover:text-gray-500/75"
                         activeClassName="text-teal-600"
-                        exact
                         to="/scholarship">
                         Scholarship
                       </NavLink>
@@ -49,7 +47,6 @@ const Navbar = () => {
                       <NavLink
                         className="text-gray-500 transition hover:text-gray-500/75"
                         activeClassName="text-teal-600"
-                        exact
                         to="/courses">
                         Courses
                       </NavLink>
