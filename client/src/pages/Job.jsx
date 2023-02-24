@@ -3,6 +3,8 @@ import HeroHome from '../partials/HeroHome';
 import Footer from '../partials/Footer';
 import Navbar from '../partials/Navbar';
 import Login from '../partials/Login';
+import Search from '../partials/Components/SearchDiv/Search'
+import Jobs from '../partials/Components/JobDiv/Jobs'
 const Job = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -16,7 +18,10 @@ const Job = () => {
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <HeroHome />
+        <Search />
+
+        <Jobs />
+
      
       </main>
 
