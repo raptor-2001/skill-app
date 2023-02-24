@@ -1,8 +1,14 @@
 import React from 'react'
-import HeroHome from '../partials/HeroHome';
+
 import Footer from '../partials/Footer';
 import Navbar from '../partials/Navbar';
 import Login from '../partials/Login';
+
+import Testimonials from '../partials/online-tution/Testimonials';
+import Showcase from '../partials/online-tution/Showcase';
+import HowDoesItWork from '../partials/online-tution/HowDoesItWork';
+
+
 const OnlineTution = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -12,11 +18,17 @@ const OnlineTution = () => {
       {/* Login */}
       <Login/>
 
+      
+
       {/*  Page content */}
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <HeroHome />
+       
+        <Showcase />
+        <HowDoesItWork />
+
+        <Testimonials />
      
       </main>
 
