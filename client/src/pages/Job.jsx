@@ -15,7 +15,7 @@ const Job = () => {
       <Login/>
 
       {/*  Page content */}
-      <main className="flex-grow">
+      <main class="p-20">
 
         {/*  Page sections */}
         <Search />
