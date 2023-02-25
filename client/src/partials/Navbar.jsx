@@ -62,15 +62,7 @@ const Navbar = () => {
                       </Link>
                 </li>
 
-                <li>  
-                      <NavLink
-                        className="text-gray-500 transition hover:text-gray-500/75"
-                        activeClassName="text-teal-600"
-                        exact
-                        to="/Get-Tution">
-                        Get Tution
-                      </NavLink>
-                </li>
+               
 
                 
               </ul>
