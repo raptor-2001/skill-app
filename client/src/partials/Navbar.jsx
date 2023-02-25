@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -19,46 +19,47 @@ const Navbar = () => {
               <ul class="flex items-center gap-6 text-sm">
 
                   <li>  
-                      <NavLink
+                      <Link
                         className="text-gray-500 transition hover:text-gray-500/75"
-                        activeclassname="text-teal-600"
                         exact
                         to="/">
                         Home
-                      </NavLink>
+                      </Link>
                   </li>
                   <li>  
-                      <NavLink
+                      <Link
                         className="text-gray-500 transition hover:text-gray-500/75"
-                        activeclassname="text-teal-600"
                         to="/jobs">
                         Jobs
-                      </NavLink>
+                      </Link>
                   </li>
                 <li>  
-                      <NavLink
+                      <Link
                         className="text-gray-500 transition hover:text-gray-500/75"
-                        activeClassName="text-teal-600"
                         to="/scholarship">
                         Scholarship
-                      </NavLink>
+                      </Link>
                 </li>
                 <li>  
-                      <NavLink
+                      <Link
                         className="text-gray-500 transition hover:text-gray-500/75"
-                        activeClassName="text-teal-600"
                         to="/courses">
                         Courses
-                      </NavLink>
+                      </Link>
                 </li>
                 <li>  
-                      <NavLink
+                      <Link
                         className="text-gray-500 transition hover:text-gray-500/75"
-                        activeClassName="text-teal-600"
-                        exact
                         to="/online-tution">
                         Online Tution
-                      </NavLink>
+                      </Link>
+                </li>
+                <li>  
+                      <Link
+                        className="text-gray-500 transition hover:text-gray-500/75"
+                        to="/mentors">
+                        Mentors
+                      </Link>
                 </li>
 
                 

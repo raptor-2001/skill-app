@@ -1,9 +1,7 @@
 {
   "dependencies": {
-<<<<<<< HEAD
-    "pure-react-carousel": "^1.30.1"
-=======
+
+    "pure-react-carousel": "^1.30.1",
     "react-icons": "^4.7.1"
->>>>>>> b7210d191b5e35d20171abfa8bcb6db69b90b63b
   }
 }

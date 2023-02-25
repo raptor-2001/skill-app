@@ -18,7 +18,7 @@ import Job from './pages/Job';
 import Courses from './pages/Courses';
 import Scholarship from './pages/Scholarship';
 import OnlineTution from './pages/OnlineTution'
-import Navbar from './partials/Navbar';
+import Mentors from './pages/Mentors';
 
 function App() {
 
@@ -47,6 +47,7 @@ function App() {
           <Route path="/scholarship" element={<Scholarship/>}/>
           <Route path="/courses" element={<Courses/>}/>
           <Route path="/online-tution" element={<OnlineTution/>}/>
+          <Route path="/mentors" element={<Mentors/>}/>
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/reset-password" element={<ResetPassword />} />
