@@ -20,6 +20,7 @@ import Scholarship from './pages/Scholarship';
 import OnlineTution from './pages/OnlineTution'
 import Navbar from './partials/Navbar';
 
+
 function App() {
 
   const location = useLocation();

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Showcase = () => {
   return (
@@ -20,12 +21,12 @@ const Showcase = () => {
 
 <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
       <div class="mt-4 md:mt-8">
-        <a
-          href="#"
+        <Link
+          to={'/online-tution/mentor'}
           class="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Get Mentorship
-        </a>
+        </Link>
       </div>
 
       <div class="mt-4 md:mt-8">
