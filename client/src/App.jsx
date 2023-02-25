@@ -17,6 +17,7 @@ import ResetPassword from './pages/ResetPassword';
 import Job from './pages/Job';
 import Courses from './pages/Courses';
 import Scholarship from './pages/Scholarship';
+import ScholarshipInfo from './pages/ScholarshipInfo';
 import OnlineTution from './pages/OnlineTution'
 import Mentors from './pages/Mentors';
 
@@ -46,6 +47,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/jobs" element={<Job/>}/>
           <Route path="/scholarship" element={<Scholarship/>}/>
+          <Route path="/scholarship-info/:title" element={<ScholarshipInfo/>}/>
           <Route path="/courses" element={<Courses/>}/>
           <Route path="/online-tution" element={<OnlineTution/>}/>
           <Route path="/mentors" element={<Mentors/>}/>
